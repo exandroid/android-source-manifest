@@ -26,7 +26,21 @@
     <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <project path="libcore" name="platform/libcore" groups="pdk" />
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
+    <project path="packages/apps/Car/SystemUI" name="platform/packages/apps/Car/SystemUI" groups="pdk-fs" />
+    <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" />
+    <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" />
+    <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" groups="pdk-fs" />
+    <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
+    <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/wallpapers/ImageWallpaper" name="platform/packages/wallpapers/ImageWallpaper" groups="pdk-fs" />
+    <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
+    <project path="system/apex" name="platform/system/apex" groups="pdk" />
     <project path="system/core" name="platform/system/core" groups="pdk" />
+    <project path="system/extras" name="platform/system/extras" groups="pdk" />
+    <project path="system/logging" name="platform/system/logging" groups="pdk" />
+    <project path="system/media" name="platform/system/media" groups="pdk" />
 
     <project path=".exandroid/android-source" name="exandroid/android-source" revision="main" remote="github" groups="exandroid">
         <copyfile src="android.iml" dest="android.iml" />
