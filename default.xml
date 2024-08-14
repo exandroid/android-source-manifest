@@ -28,10 +28,8 @@
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
     <project path="system/core" name="platform/system/core" groups="pdk" />
 
-
-    <project path="exandroid/android-source" name="exandroid/android-source" revision="main" remote="github" groups="exandroid">
+    <project path=".exandroid/android-source" name="exandroid/android-source" revision="main" remote="github" groups="exandroid">
         <copyfile src="android.iml" dest="android.iml" />
         <copyfile src="android.ipr" dest="android.ipr" />
     </project>
-
 </manifest>
