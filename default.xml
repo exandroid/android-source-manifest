@@ -22,7 +22,6 @@
     <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
     <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-    <project path="frameworks/support" name="platform/frameworks/support" revision="androidx-main" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
     <project path="libcore" name="platform/libcore" groups="pdk" />
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -42,8 +41,8 @@
     <project path="system/logging" name="platform/system/logging" groups="pdk" />
     <project path="system/media" name="platform/system/media" groups="pdk" />
 
-    <project path=".exandroid/android-source" name="exandroid/android-source" revision="main" remote="github" groups="exandroid">
-        <copyfile src="android.iml" dest="android.iml" />
-        <copyfile src="android.ipr" dest="android.ipr" />
+    <project path="." name="exandroid/android-source" revision="main" remote="github" groups="exandroid">
+<!--        <copyfile src="android.iml" dest="android.iml" />-->
+<!--        <copyfile src="android.ipr" dest="android.ipr" />-->
     </project>
 </manifest>
